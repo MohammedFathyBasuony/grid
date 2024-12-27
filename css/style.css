@@ -1,0 +1,93 @@
+.parent {
+
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr) ;
+    grid-template-rows: repeat( 5, 1fr) ;
+    grid-column-gap: 2px ;
+    grid-row-gap: 2px ;
+    /* grid-gap: 10px   25px  ; */
+    height: 100vh;
+
+.div1{
+    background-color: aqua;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+.div2{
+    background-image: url(../imge/pexels-christian-9-454702-1164778.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    grid-row-start: 1 ;
+    grid-row-end: 4 ; 
+} 
+.div3{
+    background-image: url(../imge/pexels-gvbrielh-3593922.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    grid-row-start: 1 ;
+    grid-row-end: 3; 
+    grid-column: 1/ 3;
+} 
+.div4{
+    background-image: url(../imge/pexels-vladalex94-1402787.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    grid-row-start: 3 ;
+    grid-row-end: 4; 
+    grid-column: 3/ 5; */
+}
+.div5{
+    background-image: url(../imge/pexels-introspectivedsgn-5214413.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /*grid-row-start: 3 ;
+    grid-row-end: 5; 
+    grid-column: 3/ 5; */
+}
+.div6{
+    background-image: url(../imge/pexels-kampratt-3457780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* grid-row-start: 3 ;
+    grid-row-end: 5; 
+    grid-column: 3/ 5; */ */
+}
+.div7{
+    background-image: url(../imge/pexels-kampratt-5086489.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* grid-row-start: 3 ;
+    grid-row-end: 5; 
+    grid-column: 3/ 5; */ */
+}
+.div8{
+    background-image: url(../imge/pexels-krislucas90-3264504.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div9{
+    background-image: url(../imge/pexels-lynxexotics-3802510.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div10{
+    background-image: url(../imge/pexels-olenkabohovyk-3646108.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
